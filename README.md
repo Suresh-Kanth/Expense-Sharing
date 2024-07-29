@@ -23,7 +23,7 @@ This is a Django-based expense-sharing application that allows users to manage s
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/expense_sharing.git
+    git clone https://github.com/Suresh-Kanth/Expense-Sharing.git
     cd expense_sharing
     ```
 
@@ -31,7 +31,7 @@ This is a Django-based expense-sharing application that allows users to manage s
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate 
     ```
 
 3. **Install the required packages:**
@@ -43,20 +43,20 @@ This is a Django-based expense-sharing application that allows users to manage s
 4. **Apply migrations:**
 
     ```bash
-    python manage.py makemigrations
-    python manage.py migrate
+    python3 manage.py makemigrations
+    python3 manage.py migrate
     ```
 
 5. **Create a superuser:**
 
     ```bash
-    python manage.py createsuperuser
+    python3 manage.py createsuperuser
     ```
 
 6. **Run the server:**
 
     ```bash
-    python manage.py runserver
+    python3 manage.py runserver
     ```
 
 ## API Endpoints
@@ -159,4 +159,4 @@ This is a Django-based expense-sharing application that allows users to manage s
 To run the tests, use the following command:
 
 ```bash
-python manage.py test
+python3 manage.py test
